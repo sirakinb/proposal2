@@ -8,7 +8,7 @@
     --background: 0 0% 0%; /* Black */
     --foreground: 0 0% 98%;
 
-    --card: 240 17% 13%;
+    --card: 0 0% 10%; /* Dark black for cards */
     --card-foreground: 0 0% 98%;
 
     --popover: 0 0% 0%; /* Black */
@@ -21,7 +21,7 @@
     --secondary-foreground: 0 0% 98%;
 
     --muted: 0 0% 15%;
-    --muted-foreground: 240 5% 75%;
+    --muted-foreground: 0 0% 65%; /* Changed from blue-ish hue to neutral */
 
     --accent: 134 38% 27%; /* Forest green accent */
     --accent-foreground: 0 0% 98%;
@@ -36,13 +36,13 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-foreground: 0 0% 26%; /* Changed from blue-ish to neutral */
+    --sidebar-primary: 0 0% 10%;
     --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-accent: 0 0% 96%; /* Changed from blue-ish to neutral */
+    --sidebar-accent-foreground: 0 0% 10%;
+    --sidebar-border: 0 0% 91%;
+    --sidebar-ring: 134 38% 27%; /* Changed to forest green */
   }
 }
 
