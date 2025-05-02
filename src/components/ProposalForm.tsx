@@ -2,7 +2,13 @@
 import React, { useState } from 'react';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Select } from '@/components/ui/select';
+import { 
+  Select,
+  SelectTrigger,
+  SelectValue,
+  SelectContent,
+  SelectItem
+} from '@/components/ui/select';
 import { Switch } from '@/components/ui/switch';
 import { Button } from '@/components/ui/button';
 import { ChevronDown, ArrowRight } from 'lucide-react';
@@ -68,19 +74,16 @@ const ProposalForm = () => {
       
       <div className="space-y-2">
         <label htmlFor="callOutcome" className="text-sm font-medium">Call Outcome</label>
-        <div className="relative">
-          <Select>
-            <select 
-              id="callOutcome" 
-              className="w-full bg-secondary border-border rounded-md py-2 pl-3 pr-8 appearance-none focus:outline-none focus:ring-1 focus:ring-forest"
-            >
-              <option value="">Select the outcome of the call</option>
-              <option value="interested">Interested</option>
-              <option value="very-interested">Very Interested</option>
-              <option value="need-follow-up">Needs Follow-up</option>
-            </select>
-            <ChevronDown className="absolute right-3 top-1/2 transform -translate-y-1/2 text-muted-foreground pointer-events-none h-4 w-4" />
-          </div>
+        <Select>
+          <SelectTrigger className="w-full bg-secondary border-border">
+            <SelectValue placeholder="Select the outcome of the call" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="interested">Interested</SelectItem>
+            <SelectItem value="very-interested">Very Interested</SelectItem>
+            <SelectItem value="need-follow-up">Needs Follow-up</SelectItem>
+          </SelectContent>
+        </Select>
       </div>
       
       <div className="space-y-2">
