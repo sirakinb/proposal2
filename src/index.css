@@ -5,32 +5,32 @@
 
 @layer base {
   :root {
-    --background: 0 0% 0%; /* Changed to black */
+    --background: 0 0% 0%; /* Black */
     --foreground: 0 0% 98%;
 
     --card: 240 17% 13%;
     --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 0%; /* Changed to black */
+    --popover: 0 0% 0%; /* Black */
     --popover-foreground: 0 0% 98%;
 
-    --primary: 134 38% 27%;
+    --primary: 134 38% 27%; /* Forest green */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 240 17% 20%;
+    --secondary: 0 0% 13%; /* Darker shade for secondary elements */
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 240 17% 20%;
+    --muted: 0 0% 15%;
     --muted-foreground: 240 5% 75%;
 
-    --accent: 134 38% 27%;
+    --accent: 134 38% 27%; /* Forest green accent */
     --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 240 17% 25%;
-    --input: 240 17% 25%;
+    --border: 0 0% 20%; /* Darker border color */
+    --input: 0 0% 20%;
     --ring: 134 38% 27%;
 
     --radius: 0.5rem;

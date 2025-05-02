@@ -25,6 +25,11 @@ export default {
 					light: '#3a7a48',
 					dark: '#1e4427',
 				},
+				gold: {
+					DEFAULT: '#D4AF37',
+					light: '#e6c158',
+					dark: '#b89426',
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',

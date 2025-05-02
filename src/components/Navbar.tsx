@@ -12,13 +12,13 @@ const Navbar = () => {
           <div className="flex gap-1 bg-secondary rounded-md overflow-hidden">
             <Link 
               to="/" 
-              className="px-4 py-2 bg-accent text-accent-foreground text-sm font-medium"
+              className="px-4 py-2 bg-forest text-white text-sm font-medium"
             >
               Create Proposal
             </Link>
             <Link 
               to="/dashboard" 
-              className="px-4 py-2 text-muted-foreground text-sm font-medium hover:text-white transition-colors"
+              className="px-4 py-2 text-muted-foreground text-sm font-medium hover:text-gold hover:text-gold-light transition-colors"
             >
               Dashboard
             </Link>

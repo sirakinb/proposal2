@@ -7,7 +7,7 @@ const Logo = () => {
       <div className="w-8 h-8 bg-forest text-white font-bold flex items-center justify-center rounded">
         PG
       </div>
-      <span className="font-semibold text-lg text-white">Proposal Generator</span>
+      <span className="font-semibold text-lg text-white">Proposal <span className="text-gold">Generator</span></span>
     </div>
   );
 };
