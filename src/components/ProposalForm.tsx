@@ -166,7 +166,7 @@ const ProposalForm = () => {
       <div className="flex justify-center pt-4">
         <Button 
           type="submit" 
-          className="bg-accent hover:bg-accent/90 text-white px-8 py-6 rounded-md flex items-center gap-2 transition-colors"
+          className="bg-primary hover:bg-primary/90 text-white px-8 py-6 rounded-md flex items-center gap-2 transition-colors"
         >
           Generate Proposal 
           <ArrowRight className="h-4 w-4" />
