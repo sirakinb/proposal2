@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -160,14 +159,14 @@ const ProposalForm = () => {
         <Switch 
           checked={sendToCustomer}
           onCheckedChange={setSendToCustomer}
-          className="data-[state=checked]:bg-forest"
+          className="data-[state=checked]:bg-accent"
         />
       </div>
       
       <div className="flex justify-center pt-4">
         <Button 
           type="submit" 
-          className="bg-forest hover:bg-forest-light text-white px-8 py-6 rounded-md flex items-center gap-2 transition-colors"
+          className="bg-accent hover:bg-accent/90 text-white px-8 py-6 rounded-md flex items-center gap-2 transition-colors"
         >
           Generate Proposal 
           <ArrowRight className="h-4 w-4" />
